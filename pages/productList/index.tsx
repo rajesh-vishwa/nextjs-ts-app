@@ -1,27 +1,33 @@
 import Link from "next/link";
 import { IProduct } from "../../src/models/product";
 import productData from "../../data.json";
+import { Grid } from "../../src/components/ui";
+import ProductCard from "../../src/components/product/ProductCard/ProductCard";
 
 type Props = {
   products: IProduct[];
 };
 
 function ProductList({ products }: Props) {
-  console.log(products);
-  console.log("productData: ", productData);
   return (
     <>
       <h1>Products List</h1>
-      <ul>
+      <Grid>
         {products.map((product) => (
-          <li key={product.id}>
-            {product.id} {product.name}
-            <Link href="/product/[id]" as={"/product/" + product.id}>
-              <a>Details</a>
-            </Link>
-          </li>
+          <ProductCard
+            key={product.id}
+            product={product}
+            imgWidth={320}
+            imgHeight={320}
+          />
+          //   <li key={product.id}>
+          //     {product.id} {product.name}
+          //     <Link href="/product/[id]" as={"/product/" + product.id}>
+          //       <a>Details</a>
+          //     </Link>
+          //   </li>
         ))}
-      </ul>
+      </Grid>
     </>
   );
 }

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './Marquee';","map":{"version":3,"sources":["/Users/rv/Documents/ReactProj/nextjs-app/src/components/ui/Marquee/index.ts"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,WAAxB","sourcesContent":["export { default } from './Marquee'\n"]},"metadata":{},"sourceType":"module"}

@@ -2,49 +2,49 @@
   "products": [
     {
       "id": 1,
-      "name": "Purple Bricks",
-      "image": "/images/airpods.jpg",
-      "price": 2,
+      "name": "T-Shirt",
+      "image": "/black.png",
+      "price": 20,
 
       "description": "2 rooms flat for sale"
     },
     {
       "id": 2,
-      "name": "Red Bricks",
-      "image": "/images/alexa.jpg",
-      "price": 3,
+      "name": "Short sleeve t-shirt",
+      "image": "/blue.png",
+      "price": 25,
 
       "description": "3 rooms flat for sale"
     },
     {
       "id": 3,
-      "name": "Tulip Height",
-      "image": "/images/camera.jpg",
-      "price": 1,
+      "name": "Black Hat",
+      "image": "/cap.png",
+      "price": 60.12,
 
       "description": "1 bed flat for rent"
     },
     {
       "id": 4,
-      "name": "Black Rock",
-      "image": "/images/mouse.jpg",
-      "price": 4,
+      "name": "Short sleeve",
+      "image": "/gray.png",
+      "price": 249.99,
 
       "description": "4 rooms flat for sale"
     },
     {
       "id": 5,
-      "name": "Yellow Bricks",
-      "image": "/images/phone.jpg",
-      "price": 2,
+      "name": "Bomber Jacket",
+      "image": "/jacket.png",
+      "price": 26,
 
       "description": "2 rooms flat for sale"
     },
     {
       "id": 6,
-      "name": "Purple Bricks",
-      "image": "/images/playstation.jpg",
-      "price": 1,
+      "name": "Lightweight Jacket",
+      "image": "/yellow.png",
+      "price": 52,
 
       "description": "1 room flat for sale"
     }
