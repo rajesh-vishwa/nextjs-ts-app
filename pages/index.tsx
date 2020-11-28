@@ -1,10 +1,14 @@
+import styled from "styled-components";
 import Button from "../src/components/Button/Button";
 
 const Home = () => (
   <div>
-    <h2>Hello world</h2>
+    <Title>Hello world</Title>
     <Button text="Save" />
   </div>
 );
 
+const Title = styled.h2`
+  color: red;
+`;
 export default Home;

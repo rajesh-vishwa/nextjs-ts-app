@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Purple Bricks",
+      "image": "/images/airpods.jpg",
+      "price": 2,
+
+      "description": "2 rooms flat for sale"
+    },
+    {
+      "id": 2,
+      "name": "Red Bricks",
+      "image": "/images/alexa.jpg",
+      "price": 3,
+
+      "description": "3 rooms flat for sale"
+    },
+    {
+      "id": 3,
+      "name": "Tulip Height",
+      "image": "/images/camera.jpg",
+      "price": 1,
+
+      "description": "1 bed flat for rent"
+    },
+    {
+      "id": 4,
+      "name": "Black Rock",
+      "image": "/images/mouse.jpg",
+      "price": 4,
+
+      "description": "4 rooms flat for sale"
+    },
+    {
+      "id": 5,
+      "name": "Yellow Bricks",
+      "image": "/images/phone.jpg",
+      "price": 2,
+
+      "description": "2 rooms flat for sale"
+    },
+    {
+      "id": 6,
+      "name": "Purple Bricks",
+      "image": "/images/playstation.jpg",
+      "price": 1,
+
+      "description": "1 room flat for sale"
+    }
+  ]
+}
