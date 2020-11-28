@@ -6,7 +6,6 @@ import { IProduct } from "../../../models/product";
 
 interface Props {
   product: IProduct;
-
   imgWidth: number | string;
   imgHeight: number | string;
 }
