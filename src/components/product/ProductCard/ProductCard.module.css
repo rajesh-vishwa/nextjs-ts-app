@@ -1,5 +1,6 @@
 .cardContainer {
   border: 2px solid lightgray;
+  padding-top: 10px;
 }
 
 .imageContainer {

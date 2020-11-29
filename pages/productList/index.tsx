@@ -10,7 +10,7 @@ type Props = {
 
 function ProductList({ products }: Props) {
   return (
-    <>
+    <div className="px-4 py-4">
       <h1>Products List</h1>
       <Grid>
         {products.map((product) => (
@@ -28,7 +28,7 @@ function ProductList({ products }: Props) {
           //   </li>
         ))}
       </Grid>
-    </>
+    </div>
   );
 }
 
