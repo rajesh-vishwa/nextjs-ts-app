@@ -7,13 +7,18 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "storybook": "start-storybook -p 6006 -c .storybook"
+    "storybook": "start-storybook -p 6006 -c .storybook",
+    "dsm-storybook:publish": "dsm-storybook publish",
+    "dsm-storybook:preview": "dsm-storybook preview"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@invisionapp/dsm-storybook": "0.0.137",
     "@storybook/addon-knobs": "^6.1.8",
+    "@storybook/addon-options": "^5.3.21",
+    "@storybook/addons": "^6.1.8",
     "@types/classnames": "^2.2.11",
     "@types/node": "^14.14.10",
     "@types/react": "^17.0.0",
