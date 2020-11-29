@@ -6,7 +6,7 @@
       "image": "/black.png",
       "price": 20,
 
-      "description": "2 rooms flat for sale"
+      "description": "A super-soft, form-fitting, breathable t-shirt with a slightly lower neckline than a classic t-shirt."
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "image": "/blue.png",
       "price": 25,
 
-      "description": "3 rooms flat for sale"
+      "description": "A super-soft, form-fitting, breathable t-shirt with a slightly lower neckline than a classic t-shirt."
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "image": "/cap.png",
       "price": 60.12,
 
-      "description": "1 bed flat for rent"
+      "description": "A super-soft, form-fitting, breathable t-shirt with a slightly lower neckline than a classic t-shirt."
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "image": "/gray.png",
       "price": 249.99,
 
-      "description": "4 rooms flat for sale"
+      "description": "A super-soft, form-fitting, breathable t-shirt with a slightly lower neckline than a classic t-shirt."
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "image": "/jacket.png",
       "price": 26,
 
-      "description": "2 rooms flat for sale"
+      "description": "A super-soft, form-fitting, breathable t-shirt with a slightly lower neckline than a classic t-shirt."
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "image": "/yellow.png",
       "price": 52,
 
-      "description": "1 room flat for sale"
+      "description": "A super-soft, form-fitting, breathable t-shirt with a slightly lower neckline than a classic t-shirt."
     }
   ]
 }

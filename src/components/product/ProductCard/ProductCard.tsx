@@ -13,15 +13,23 @@ interface Props {
 const ProductCard: FC<Props> = ({ product, imgWidth, imgHeight }) => {
   return (
     <Link href={`/product/${product.id}`}>
-      <div className={s.imageContainer}>
-        <Image
-          quality="85"
-          src={product.image}
-          alt={product.name}
-          className={s.image}
-          width={imgWidth}
-          height={imgHeight}
-        />
+      <div className={s.cardContainer}>
+        <div className={s.imageContainer}>
+          <Image
+            quality="85"
+            src={product.image}
+            alt={product.name}
+            className={s.image}
+            width={imgWidth}
+            height={imgHeight}
+          />
+        </div>
+        <div className={s.cardDetails}>
+          <div className={s.productTitle}>
+            <span>{product.name}</span>
+          </div>
+          <div className={s.productPrice}>${product.price}</div>
+        </div>
       </div>
     </Link>
   );
